@@ -2,8 +2,8 @@ import "../../styles/projects.scss";
 
 const Projects = () => {
   return (
-    <div className="">
-
+    <div className="projects">
+      projects
     </div>
   );
 }
