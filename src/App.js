@@ -2,7 +2,7 @@ import '../src/styles/app.scss';
 import Intro from './components/intro/Intro';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
-import Projects from './components/Projects/Projects';
+import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 
 
