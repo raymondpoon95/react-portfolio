@@ -17,18 +17,19 @@ const About = () => {
               <p>Crazy developer who wants to explore every tech stack</p>
 
               <h1>⚡</h1>
-              <p>Interested in developing highly interactive Front end / User Interfaces for web applications</p>
+              <p>Developing highly interactive Frontend / User Interfaces for web applications</p>
 
               <h1>⚡</h1>
-              <p>My current goal is to strengthen my programming fundamentals and improve my web development skills particularly in React and vanilla JavaScript</p>
+              <p>Working to build more projects and to become more familiar with different tools and technology across frontend development</p>
 
               <h1>⚡</h1>
-              <p>Develop highly interactive Front end / User Interfaces for web applications</p>
+              <p>Current goal is to strengthen my programming fundamentals and improve my React and vanilla JavaScript skills</p>
+
             </div>
           </Fade>
           <Fade right={true} delay={500} distance="30px" >
           <div className="right-side">
-            <p style={{display:'inline'}}>My tool stack </p>    
+            <p style={{"display":"inline", "fontWeight":"500"}}>My tool stack </p>    
             <h2 style={{display:'inline'}}>🛠</h2>
             <div className="skills-grid">
               {Data.skills.map((current) => {

@@ -15,6 +15,7 @@ const Footer = () => {
               href={current.link}
               target="_blank" 
               rel="noopener noreferrer"
+              key={current.id}
             >
               <img src={current.img} alt={current.info}></img>
             </a>
