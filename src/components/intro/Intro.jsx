@@ -1,11 +1,20 @@
 import "../../styles/intro.scss";
-import NavBar from "../Navbar/Navbar";
+import Fade from "react-reveal/Fade";
+import NavBar from "../navbar/Navbar";
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <div className="intro" id="intro">
       <NavBar />
-      intro
+      <div className="content">
+        <Fade left={true} delay={500} distance="30px">
+          <h1>
+            Hi, my name is <span style={{color:'#008c8c'}}>Raymond</span>
+            <br />
+            I am an aspiring Developer. Engineer. Programmer. 🚀
+          </h1>
+        </Fade>
+      </div>
     </div>
   );
 }
