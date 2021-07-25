@@ -12,6 +12,10 @@ import npmIcon from "../src/assets/icons/npm.svg";
 import jestIcon from "../src/assets/icons/jest.svg";
 import postgresIcon from "../src/assets/icons/postgres.svg";
 
+// project images
+import softwareImg from "../src/assets/images/software-2.svg";
+import techImg from "../src/assets/images/software.svg";
+
 // social icons
 import gitIcon from "../src/assets/icons/github.svg";
 import linkedInIcon from "../src/assets/icons/linkedin.svg";
@@ -80,6 +84,35 @@ const data = {
       img: postgresIcon,
       info: "PostgreSQL"
     },
+  ],
+
+  // project data
+
+  project: [
+    {
+      id: 0,
+      title: "PF Nexus",
+      img: softwareImg, // <a href="https://www.vecteezy.com/free-vector/computer">Computer Vectors by Vecteezy</a>
+      info: "PF Nexus is a deal origination platform that connects owners, advisors, lenders and investors in energy & infrastructure projects across the world. Built with a variety of technologies, such as ReactJS, TypeScript, PostgreSQL, TailwindCSS",
+      liveLink: "https://www.pfnexus.com/",
+      gitLink: "",
+    },
+    {
+      id: 1,
+      title: "Personal portfolio",
+      img: techImg,
+      info: "Simple single page website for my personal portfolio created using ReactJS and Sass",
+      liveLink: "https://www.google.com/",
+      gitLink: "https://github.com/raymondpoon95/react-portfolio",
+    },
+    {
+      id: 2,
+      title: "Personal portfolio",
+      img: techImg,
+      info: "Simple single page website for my personal portfolio created using ReactJS and Sass",
+      liveLink: "https://www.google.com/",
+      gitLink: "https://github.com/raymondpoon95/react-portfolio",
+    }
   ],
 
   // social data
