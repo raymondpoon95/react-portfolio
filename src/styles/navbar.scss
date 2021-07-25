@@ -37,27 +37,28 @@
     ul {
       display: flex;
       margin-right: 5rem;
+      list-style: none;
 
       li {
         align-items: center;
         font-size: 1.2rem;
         padding: 0rem 2.3rem;
 
-        &::after {
-          content: '';
-          display: block;
-          border-bottom: 3px solid #008c8c; 
-          transform: scaleX(0);  
-          transition: transform 230ms ease-in-out;
-        }
-
-        &:hover::after {
-          transform: scaleX(1);
-        } 
-
         a {
           text-decoration: none;
           color: inherit;
+
+          &::after {
+            content: '';
+            display: block;
+            border-bottom: 3px solid #008c8c; 
+            transform: scaleX(0);  
+            transition: transform 230ms ease-in-out;
+          }
+  
+          &:hover::after {
+            transform: scaleX(1);
+          } 
         }
       }
     }
