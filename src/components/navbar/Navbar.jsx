@@ -4,8 +4,14 @@ import { withGetScreen } from 'react-getscreen';
 
 class NavBar extends Component {
   renderNavLinks() {
-    if(this.props.isMobile()) {
+
+    if (this.props.isMobile()) {
       // CREATE A BURGER MENU FOR MOBILE
+      return null;
+    }
+
+    if (this.props.isTablet()){
+      // CREATE A BURGER MENU FOR TABLET
       return null;
     }
     
