@@ -15,6 +15,7 @@ import postgresIcon from "../src/assets/icons/postgres.svg";
 // project images
 import softwareImg from "../src/assets/images/software-2.svg";
 import techImg from "../src/assets/images/software.svg";
+import taHubImg from "../src/assets/images/ta-hub.svg";
 
 // social icons
 import gitIcon from "../src/assets/icons/github.svg";
@@ -107,11 +108,11 @@ const data = {
     },
     {
       id: 2,
-      title: "Personal portfolio",
-      img: techImg,
-      info: "Simple single page website for my personal portfolio created using ReactJS and Sass",
-      liveLink: "https://www.google.com/",
-      gitLink: "https://github.com/raymondpoon95/react-portfolio",
+      title: "TA-Hub",
+      img: taHubImg,
+      info: "Teaching assistant management web application using Python and Django framework and BootStrap. Allows Lecturers at university to be able to easily manage their teaching assistants",
+      liveLink: "https://tahubapp.herokuapp.com/",
+      gitLink: "https://github.com/raymondpoon95/teaching-Assistant-Management",
     }
   ],
 

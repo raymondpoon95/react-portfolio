@@ -18,8 +18,7 @@
       }
     }
 
-    @include media(">smdesktop", "<=4k") {
-      margin-left: 5rem;
+    @include media(">=smdesktop", "<=4k") {
       text-align: left;
 
       h1 {

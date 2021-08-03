@@ -51,10 +51,10 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <div id="title"><h1>Projects</h1></div>
+        <div className="title" id="projects"><h1>Projects</h1></div>
         <Fade bottom={true} delay={500} distance="30px">
           <div>
-            <div className="projects" id="projects">
+            <div className="projects">
               {Data.project.map((project) => {
                 return (
                   <div className="container">
@@ -79,62 +79,5 @@ class Projects extends Component {
     );
   }
 }
-
-// const Projects = () => {
-//   const renderGithubButton = (githubLink) => {
-//     if(!githubLink) return null;
-//     return (
-//       <button><FaCode size="1.2rem" style={{marginRight: "15px"}}/>Source code</button>
-//     );
-//     // window.open(
-//     //   "https://github.com/raymondpoon95/react-portfolio",
-//     //   "_blank",
-//     //   "noopener noreferrer"
-//     // );
-//   }
-
-//   const renderLiveLinkButton = (liveLink) => {
-//     if(!liveLink) return null;
-//     return (
-//       <>
-//         <button><FaEye size="1.2rem" style={{marginRight: "15px"}}/>Preview</button>
-//       </>
-//     );
-//   }
-
-//   const buttonStyle = (props) => {
-//     if (props.isMobile()) return null;
-//     return "buttons";
-//   }
-
-//   return (
-//     <div>
-//       <div id="title"><h1>Projects</h1></div>
-//       <Fade bottom={true} delay={500} distance="30px">
-//         <div>
-//           <div className="projects" id="projects">
-//             {Data.project.map((project) => {
-//               return (
-//                 <div className="container">
-//                   <div className="item">
-//                     <img src={project.img} alt="img"></img>
-//                     <div className="content" key={project.id}>
-//                       <h1>{project.title}</h1>
-//                       <p>{project.info}</p>
-//                       <div className={buttonStyle()}>
-//                         {renderLiveLinkButton(project.liveLink)}
-//                         {renderGithubButton(project.gitLink)}
-//                       </div>
-//                     </div>
-//                   </div>
-//                 </div>
-//               )
-//             })}
-//           </div>
-//         </div>
-//       </Fade>
-//     </div>
-//   );
-// }
 
 export default withGetScreen(Projects);
