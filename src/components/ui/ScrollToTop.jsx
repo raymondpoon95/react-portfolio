@@ -30,7 +30,7 @@ const ScrollToTop = () => {
   //   console.log('hello world');
   // }, []);
 
-  window.addEventListener("wheel", console.log('helloworld'));
+  // window.addEventListener("wheel", console.log('helloworld'));
 
   return (
     <div className="up-arrow">

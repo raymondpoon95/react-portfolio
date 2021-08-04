@@ -137,6 +137,29 @@ const data = {
       link: "https://www.instagram.com/raymondpoon_/"
     }
   ],
+
+  navbarItems: [
+    {
+      id: 0,
+      title: "About",
+      link: "#about"
+    },
+    {
+      id: 1,
+      title: "Experience",
+      link: "#experience"
+    },
+    {
+      id: 2,
+      title: "Projects",
+      link: "#projects"
+    },
+    {
+      id: 3,
+      title: "Contact",
+      link: "#contact"
+    },
+  ]
 }
 
 export default data;

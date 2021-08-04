@@ -1,4 +1,5 @@
 import '../src/styles/app.scss';
+import Navbar from './components/navbar/Navbar';
 import Intro from './components/intro/Intro';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="app">
       <div className="sections">
+        <Navbar />
         <Intro />
         <About />
         <Experience />
