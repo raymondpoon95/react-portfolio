@@ -62,11 +62,11 @@
       }
     }
 
-    @include media(">=tablet", ">desktop") {
-      grid-template-columns: 50% 50%;
+    @include media(">=tablet", "<smdesktop") {
+      grid-template-columns: auto;
       gap: 3rem;
       margin-top: 0.5rem;
-      padding-left: 4rem;
+      padding-left: 2rem;
       padding-right: 4rem;
 
       .left-side {
@@ -80,17 +80,17 @@
       }
     }
 
-    @include media(">=desktop", ">=4k") {
+    @include media(">=smdesktop", "<=4k") {
       grid-template-columns: 50% 50%;
       margin-top: 0.5rem;
-      padding-left: 6.5rem;
+      padding-left: 4.5rem;
       padding-right: 6.5rem;
 
       .left-side {
         grid-template-columns: 7% 93%;
   
         p {
-          font-size: 1.6rem;
+          font-size: 1.3rem;
           padding: 1.7rem 0 1.7rem 0;
         }
       }

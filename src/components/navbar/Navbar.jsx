@@ -32,7 +32,7 @@ class NavBar extends Component {
   }
 
   renderIcon() {
-    if (this.state.width >= 0 && this.state.width < 1024) {
+    if (this.state.width >= 0 && this.state.width < 1280) {
       if (this.state.navClicked) {
         return <FaTimes size="2rem"/>
       }
@@ -82,7 +82,7 @@ class NavBar extends Component {
   }
 
   render() {
-    if (this.state.width >= 0 && this.state.width < 1024) {
+    if (this.state.width >= 0 && this.state.width < 1280) {
       return this.renderMoblieNav();
     }
 
