@@ -1,11 +1,9 @@
 import "../../styles/intro.scss";
 import Fade from "react-reveal/Fade";
-import NavBar from "../navbar/Navbar";
 
 const Intro = () => {
   return (
     <div className="intro" id="intro">
-      <span><NavBar /></span>
         <Fade left={true} delay={500} distance="30px">
           <div className="content">
               <h1>
