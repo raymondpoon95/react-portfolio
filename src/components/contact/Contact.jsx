@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <h1>Contact</h1>
-        <Fade left={true} delay={500} distance="30px">
+        <Fade left={true} delay={300} distance="30px">
           <div className="container">
             <div className="left">
               <p>

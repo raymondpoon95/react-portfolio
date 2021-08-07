@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6df42623.chunk.css",
+    "main.js": "/static/js/main.aa373aff.chunk.js",
+    "main.js.map": "/static/js/main.aa373aff.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.53f30350.js",
+    "runtime-main.js.map": "/static/js/runtime-main.53f30350.js.map",
+    "static/css/2.72c483b3.chunk.css": "/static/css/2.72c483b3.chunk.css",
+    "static/js/2.623e4d75.chunk.js": "/static/js/2.623e4d75.chunk.js",
+    "static/js/2.623e4d75.chunk.js.map": "/static/js/2.623e4d75.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.72c483b3.chunk.css.map": "/static/css/2.72c483b3.chunk.css.map",
+    "static/css/main.6df42623.chunk.css.map": "/static/css/main.6df42623.chunk.css.map",
+    "static/js/2.623e4d75.chunk.js.LICENSE.txt": "/static/js/2.623e4d75.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.d1f7dd24.svg": "/static/media/bootstrap.d1f7dd24.svg",
+    "static/media/css.c9494d2f.svg": "/static/media/css.c9494d2f.svg",
+    "static/media/email.efe67f43.svg": "/static/media/email.efe67f43.svg",
+    "static/media/github.e2c326a3.svg": "/static/media/github.e2c326a3.svg",
+    "static/media/html.cb51b39d.svg": "/static/media/html.cb51b39d.svg",
+    "static/media/instagram.ea601cbc.svg": "/static/media/instagram.ea601cbc.svg",
+    "static/media/java.c6b6ca41.svg": "/static/media/java.c6b6ca41.svg",
+    "static/media/javascript.04dc9254.svg": "/static/media/javascript.04dc9254.svg",
+    "static/media/jest.02192647.svg": "/static/media/jest.02192647.svg",
+    "static/media/linkedin.f699737b.svg": "/static/media/linkedin.f699737b.svg",
+    "static/media/nodejs.e3d34f9c.svg": "/static/media/nodejs.e3d34f9c.svg",
+    "static/media/npm.fae979f6.svg": "/static/media/npm.fae979f6.svg",
+    "static/media/postgres.2f19c3e2.svg": "/static/media/postgres.2f19c3e2.svg",
+    "static/media/react.8f6b118c.svg": "/static/media/react.8f6b118c.svg",
+    "static/media/sass.ef47ed6d.svg": "/static/media/sass.ef47ed6d.svg",
+    "static/media/software-2.2852e23f.svg": "/static/media/software-2.2852e23f.svg",
+    "static/media/software.c0ea4382.svg": "/static/media/software.c0ea4382.svg",
+    "static/media/ta-hub.1183b58a.svg": "/static/media/ta-hub.1183b58a.svg",
+    "static/media/tailwind.a492ab0c.svg": "/static/media/tailwind.a492ab0c.svg",
+    "static/media/up-arrow.5db14003.svg": "/static/media/up-arrow.5db14003.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53f30350.js",
+    "static/css/2.72c483b3.chunk.css",
+    "static/js/2.623e4d75.chunk.js",
+    "static/css/main.6df42623.chunk.css",
+    "static/js/main.aa373aff.chunk.js"
+  ]
+}

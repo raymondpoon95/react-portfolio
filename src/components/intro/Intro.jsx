@@ -11,8 +11,10 @@ const Intro = () => {
                 <br />
                 I am a Frontend Developer. Engineer. Programmer. 🚀
               </h1>
+              <span>
+                <a href="resume/raymondPoonCV.pdf" target="_blank">Resume</a>
+              </span>
           </div>
-          {/* RESUME BUTTON */}
         </Fade>
     </div>
   );
