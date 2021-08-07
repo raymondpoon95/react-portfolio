@@ -103,7 +103,7 @@ const data = {
       title: "Personal portfolio",
       img: techImg,
       info: "Simple single page website for my personal portfolio created using ReactJS and Sass",
-      liveLink: "https://www.google.com/",
+      liveLink: "raymond-poon.netlify.app",
       gitLink: "https://github.com/raymondpoon95/react-portfolio",
     },
     {
@@ -142,22 +142,22 @@ const data = {
     {
       id: 0,
       title: "About",
-      link: "#about"
+      link: "about"
     },
     {
       id: 1,
       title: "Experience",
-      link: "#experience"
+      link: "experience"
     },
     {
       id: 2,
       title: "Projects",
-      link: "#projects"
+      link: "projects"
     },
     {
       id: 3,
       title: "Contact",
-      link: "#contact"
+      link: "contact"
     },
   ]
 }
