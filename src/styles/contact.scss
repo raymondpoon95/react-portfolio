@@ -10,6 +10,7 @@
   .container {
     display: flex;
     color: #008c8c;
+    justify-content: center;
 
     .left {
       p {
@@ -39,10 +40,21 @@
     }
   }
 
-  @include media(">=tablet", "<=desktop") {
+  @include media(">=tablet", "<smdesktop") {
     .container {
-      display: flex;
-      flex-direction: column;
+      .left {
+        p {
+          font-size: 1.4rem;
+        }
+
+        span {
+          padding-bottom: 1rem;
+          
+          a {
+            font-size: 1.6rem;
+          }
+        }
+      }
     }
   }
 
