@@ -1,5 +1,6 @@
 import "../../styles/navbar.scss";
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import Data from "../../data";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -51,7 +52,9 @@ class NavBar extends Component {
                   <ul>
                     {Data.navbarItems.map((menu) => {
                       return (
-                        <li key={menu.id}><a href={menu.link} onClick={()=>this.handleOnClick()}>{menu.title}</a></li>
+                        <Link to={menu.link} spy={true} smooth={true} duration={1000}>
+                          <li key={menu.id}><a href={menu.link} onClick={()=>this.handleOnClick()}>{menu.title}</a></li>
+                        </Link> 
                       )
                     })}
                   </ul>
@@ -71,7 +74,9 @@ class NavBar extends Component {
               <ul>
                 {Data.navbarItems.map((menu) => {
                   return (
-                    <li key={menu.id}><a href={menu.link} onClick={()=>this.handleOnClick()}>{menu.title}</a></li>
+                    <Link to={menu.link} spy={true} smooth={true} duration={1000}>
+                      <li key={menu.id}><a href={menu.link}>{menu.title}</a></li>
+                    </Link>
                   )
                 })}
               </ul>

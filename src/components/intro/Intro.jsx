@@ -1,5 +1,6 @@
 import "../../styles/intro.scss";
 import Fade from "react-reveal/Fade";
+import ScrollToTop from "../ui/ScrollToTop";
 
 const Intro = () => {
   return (
@@ -16,6 +17,7 @@ const Intro = () => {
               </span>
           </div>
         </Fade>
+        <ScrollToTop />
     </div>
   );
 }
