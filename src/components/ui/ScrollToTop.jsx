@@ -1,5 +1,3 @@
-// TO DO 
-// SCROLL TO TOP BUTTON 
 import React, { useEffect, useState } from "react";
 import { animateScroll as scroll } from 'react-scroll';
 import { IoIosArrowUp } from "react-icons/io";
@@ -7,40 +5,38 @@ import "../../styles/scrollToTop.scss";
 
 
 const ScrollToTop = () => {
-  // const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
-  // const toggleVisibility = () => {
-  //   if (window.pageYOffset > 100) {
-  //     console.log(window.pageyOffset);
-  //     setIsVisible(true);
-  //   } else {
-  //     setIsVisible(false);
-  //   }
-  // };
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 200) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
 
   function scrollToTop() {
     scroll.scrollToTop();
   };
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", toggleVisibility);
-  //   console.log('hello world');
-  // }, []);
+  useEffect(() => {
+    window.addEventListener("scroll", toggleVisibility);
 
-  // window.addEventListener("wheel", console.log('helloworld'));
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    }
+  },[]);
 
   return (
     <div className="up-arrow">
-      {/* {isVisible && 
-        <div>
-          <img src={arrowIcon} alt="up-arrow" onClick={() => scrollToTop()}></img>
-        </div>
-      } */}
-      <div onClick={() => scrollToTop()}>
-        <IoIosArrowUp 
-          className="arrow"
-        />
-      </div>
+      {isVisible ? 
+        <div onClick={() => scrollToTop()}>
+          <IoIosArrowUp 
+            color="#008c8c"
+            className="arrow"
+          />
+        </div> : null
+      }
     </div>
   )
 }
