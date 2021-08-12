@@ -8,7 +8,7 @@ You can see it live here:
 This website was developed from the default boilerplate react-create-app, together with the main React configuration files. It has been built out and developed using [JavaScript](https://www.javascript.com/), [React](https://reactjs.org/) and [Sass](https://sass-lang.com/).
 
 
-I've put in a lot of effort into building and designing [name of website](https://www.raymond-poon.com/)
+I've put in a lot of effort into building and designing [raymond-poon.com](https://www.raymond-poon.com/)
 , and I am very proud of it! I am going to continue to improve on the design and features, if you have any improvements or advice please let me know 🙏
 
 ## 🚀 Getting started
