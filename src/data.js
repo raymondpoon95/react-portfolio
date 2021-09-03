@@ -13,8 +13,9 @@ import jestIcon from "../src/assets/icons/jest.svg";
 import postgresIcon from "../src/assets/icons/postgres.svg";
 
 // project images
-import softwareImg from "../src/assets/images/software-2.svg";
 import techImg from "../src/assets/images/software.svg";
+import softwareImg from "../src/assets/images/software-2.svg";
+import stockImg from "../src/assets/images/stock.svg";
 import taHubImg from "../src/assets/images/ta-hub.svg";
 
 // social icons
@@ -113,7 +114,15 @@ const data = {
       info: "Teaching assistant management web application using Python and Django framework and BootStrap. Allows Lecturers at university to be able to easily manage their teaching assistants",
       liveLink: "https://tahubapp.herokuapp.com/",
       gitLink: "https://github.com/raymondpoon95/teaching-Assistant-Management",
-    }
+    },
+    // {
+    //   id: 3,
+    //   title: "Crypto-tracker-app",
+    //   img: stockImg,
+    //   info: "A React application that manipulates the CoinGecko API to keep track and display the prices of the various crypto coins and show all their details",
+    //   liveLink:"https://www.google.com/",
+    //   gitLink: "https://github.com/raymondpoon95/react-crypto-api-app",
+    // }
   ],
 
   // social data
