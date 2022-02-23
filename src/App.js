@@ -1,24 +1,20 @@
-import '../src/styles/app.scss';
-import Navbar from './components/navbar/Navbar';
-import Intro from './components/intro/Intro';
-import About from './components/about/About';
-import Experience from './components/experience/Experience';
-import Projects from './components/projects/Projects';
-import Contact from './components/contact/Contact';
+import React from "react";
+import { About, Footer, Header, Skills, Work } from "./container";
+import Navbar from "./components/Navbar/Navbar";
 
-function App() {
+import "./App.scss";
+
+const App = () => {
   return (
     <div className="app">
-      <div className="sections">
-        <Navbar />
-        <Intro />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
-      </div>
+      <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
